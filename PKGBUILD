@@ -12,8 +12,12 @@ url="http://www.prevanders.net/dwarf.html"
 depends=('elfutils')
 provides=('libdwarf')
 conflicts=('libdwarf')
-source=(http://www.prevanders.net/libdwarf-${pkgver}.tar.gz)
-md5sums=('6cfa1c4f165ad312de9d213159073e05')
+source=(
+	http://www.prevanders.net/libdwarf-${pkgver}.tar.gz
+	.AURINFO
+)
+sha256sums=('c22272889ed1d3e608b06ce7c568fe0a3fafd0d4f642e41e926fec73365d4eeb'
+            'c5f47f0dc16d1cc5f9cfb01410d6d17f05b654b0ae1e41c3f1bbdb0f27730dbe')
 
 build() {
   cd "$srcdir"/dwarf-$pkgver

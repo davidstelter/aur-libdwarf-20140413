@@ -1,0 +1,7 @@
+pkgbase=libdwarf-20140413
+pkgname=libdwarf-20140413
+pkgver=20140413
+pkgdesc="A library for handling DWARF Debugging Information Format, older compat version for hhvm"
+license=('GPL' 'LGPL')
+url="http://www.prevanders.net/dwarf.html"
+depends=('elfutils')
