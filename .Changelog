@@ -1,0 +1,2 @@
+pkgrel 2: Removed .AURINFO from sources list, thanks mtorromeo
+pkgrel 1: initial release, largely copied from https://aur.archlinux.org/packages/libdwarf/
